@@ -1,0 +1,29 @@
+{
+  "name": "desafio-backend-03-dindin-t05",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/controladores/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cubos-academy/desafio-backend-03-dindin-t05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cubos-academy/desafio-backend-03-dindin-t05/issues"
+  },
+  "homepage": "https://github.com/cubos-academy/desafio-backend-03-dindin-t05#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3"
+  }
+}
